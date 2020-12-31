@@ -1,0 +1,136 @@
+.Border {
+  color: lightgray;
+  border-style: solid;
+  border-radius: 10px 10px 0px 0px;
+  padding: 1%;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.TopRow {
+  display: flex;
+}
+
+.TopRow .TopRow_Left {
+  flex: 1;
+}
+
+.TopRow .TopRow_Right {
+  flex: 1 right;
+}
+
+.Header {
+  color: black;
+  font-size: 5vh;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.StandardCustomButton {
+  width: 100%;
+  border: none;
+  color: white;
+  background-color: #008081;
+  text-align: center;
+  text-decoration: none;
+  font-size: 5vh;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 0px;
+  margin: 0px;
+  border-radius: 0px 0px 10px 10px;
+  border: none;
+  outline: none;
+}
+.Divider {
+  color: #088e80;
+  background-color: #088e80;
+  height: 3px;
+}
+
+.dosage {
+  width: 7vw;
+  height: 5vh;
+  margin-right: 5vw;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.weightsToggleButton {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.weightsToggleButton button {
+  float: right;
+  margin-top: 10px;
+}
+
+.dosageInput {
+  width: 100%;
+  padding-bottom: 3px;
+}
+
+.addDosageButton {
+  background-color: white;
+  height: 5vh;
+  width: 7vw;
+  border: dashed;
+  border-width: 1px;
+  outline: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.ellipse {
+  position: relative;
+  margin-top: 10px;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -160px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-item{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+    margin-right: 100px;
+}
+.parent {
+    position: relative;
+    display: inline-block;
+}
+.child{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: none;
+}
+
+.dosage:hover + .child {
+  display: block;
+}
+
+.test {
+    position: fixed;
+    bottom: 0;
+}
+.test69 {
+    height: 100px;
+    width: 100px;
+}
